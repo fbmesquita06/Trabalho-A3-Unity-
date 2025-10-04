@@ -6,7 +6,8 @@ public class MovimentoSimples : MonoBehaviour
 
     void Update()
     {
-        // Move o objeto para frente a cada frame
+    
         transform.Translate(Vector3.forward * velocidade * Time.deltaTime);
     }
 }
+
